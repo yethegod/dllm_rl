@@ -1,0 +1,10008 @@
+{
+  "accuracy": 0.2425,
+  "correct": 485,
+  "total": 2000,
+  "results": [
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "correct": true
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "correct": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "correct": false
+    }
+  ],
+  "elapsed_sec": 542.5
+}

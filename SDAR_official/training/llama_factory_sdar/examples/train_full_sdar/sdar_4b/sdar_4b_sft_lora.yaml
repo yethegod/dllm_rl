@@ -1,0 +1,55 @@
+### model
+model_name_or_path: /home/ubuntu/models/SDAR-4B-Chat
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+use_dft_loss: true
+freeze_language_model: false
+
+### lora — aligned with RL (same target modules)
+lora_rank: 64
+lora_alpha: 128
+lora_target: q_proj,k_proj,v_proj,o_proj
+lora_dropout: 0.05
+
+### dataset
+dataset: sdar_math_sft
+template: qwen3
+block_length: 4
+cutoff_len: 1536
+neat_packing: false
+truncate_mode: drop
+tokenized_path: /home/ubuntu/dllm/.cache_lf_sdar_sft
+overwrite_cache: false
+preprocessing_num_workers: 8
+dataloader_num_workers: 4
+
+### output
+output_dir: /home/ubuntu/dllm/checkpoints/sdar-sft-lf/sdar_4b_sft_lora
+logging_steps: 10
+save_steps: 50
+save_total_limit: 5
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: none
+
+### train — aligned with RL config
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 43
+learning_rate: 1.0e-5
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true
+max_grad_norm: 1.0
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.01
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 50

@@ -1,0 +1,52 @@
+# Model weights (large binaries)
+*.safetensors
+*.bin
+*.pth
+*.pt
+
+# Training checkpoints
+checkpoints/
+*/checkpoints/
+
+# Cache files (large dataset caches)
+*.pkl
+*.arrow
+.cache*/
+*/.cache*/
+
+# Logs
+*.log
+slurm-*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Data (remove this line if you want .jsonl files tracked)
+*.jsonl
+
+# Environment
+miniconda3/
+*.deb
+.cache/
+.claude/
+.vscode-server/
+
+# System / shell
+.ssh/
+.bash_history
+.sudo_as_admin_successful
+.wget-hsts
+.triton/
+.nv/
+.dotnet/
+.copilot/
+.anaconda/
+.conda/
+.local/
+.config/
+.claude.json
+agent

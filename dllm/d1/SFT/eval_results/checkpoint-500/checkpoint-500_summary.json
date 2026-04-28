@@ -1,0 +1,21 @@
+{
+  "checkpoint": "checkpoint-500",
+  "base_model": "/home/ubuntu/models/SDAR-4B-Chat",
+  "gen_length": 512,
+  "steps": 128,
+  "notes": {
+    "gen_length_issue": "gen_length=512 causes EOS collapse at checkpoint-500. Model collapses to all <|endoftext|> tokens for gen_length >= 256. Generation benchmarks produce empty outputs.",
+    "gpqa": "Crashed: gated dataset, requires HuggingFace authentication (huggingface-cli login)",
+    "ifeval_humaneval_livecode": "Not reached: eval crashed on gpqa before these benchmarks"
+  },
+  "results": {
+    "math500":   {"accuracy": 0.0,    "total": 500,  "elapsed_sec": 3240.3, "status": "empty_generation"},
+    "aime":      {"accuracy": 0.0,    "total": 90,   "elapsed_sec": 608.1,  "status": "empty_generation"},
+    "mmlu":      {"accuracy": 0.2425, "total": 2000, "elapsed_sec": 542.5,  "status": "ok"},
+    "hellaswag": {"accuracy": 0.2445, "total": 2000, "elapsed_sec": 475.4,  "status": "ok"},
+    "gpqa":      {"accuracy": null,   "total": null,  "elapsed_sec": null,   "status": "crashed_gated_dataset"},
+    "ifeval":    {"accuracy": null,   "total": null,  "elapsed_sec": null,   "status": "not_reached"},
+    "humaneval": {"accuracy": null,   "total": null,  "elapsed_sec": null,   "status": "not_reached"},
+    "livecode":  {"accuracy": null,   "total": null,  "elapsed_sec": null,   "status": "not_reached"}
+  }
+}
