@@ -19,3 +19,12 @@ While prior work has extensively studied reasoning transferability in autoregres
 | Method | Math Reasoning | Other Reasoning | Non-Reasoning |
 |--------|---------------|----------------|---------------|
 | **RL** | ✅ Strong gains | ✅ Positive transfer | ✅ Preserved/improved |
+
+## Acknowledgements and Licenses
+
+This project builds on two open-source codebases:
+
+- [SDAR](https://github.com/JetAstra/SDAR), which is released under the [MIT License](evaluation/SDAR/LICENSE). We use SDAR-4B-Chat as the base diffusion language model and for SDAR-specific evaluation components.
+- [dLLM-RL / TraceRL](https://github.com/Gen-Verse/dLLM-RL), which is released under the [Apache License 2.0](evaluation/dLLM-RL/LICENSE). We use its reinforcement learning and evaluation infrastructure for diffusion language models.
+
+We thank the authors and contributors of SDAR and dLLM-RL / TraceRL for releasing their code and models to the community. Their work provides the foundation for this course project.
