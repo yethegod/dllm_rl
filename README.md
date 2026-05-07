@@ -7,6 +7,12 @@ This is the codebase for CSCI 5980 course project: Exploration in Diffusion Lang
 ## Overview
 While prior work has extensively studied reasoning transferability in autoregressive LLMs, it remains unclear whether diffusion language models exhibit similar transfer patterns. This project investigates that question by evaluating how reasoning-oriented training transfers across mathematical reasoning, broader reasoning tasks, and non-reasoning benchmarks.
 
+### Compute Resources
+
+- **RL training**: 8 x NVIDIA A100 40GB GPUs.
+- **Inference / evaluation**: 2 x NVIDIA A100 40GB GPUs.
+- **SFT training**: TBD.
+
 ### Benchmark Categories
 
 | Category | Benchmarks | Description |

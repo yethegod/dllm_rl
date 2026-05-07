@@ -12,12 +12,12 @@ experiment:
     save_every: 10
     eval_every: 10
     current_epoch: 1
-    deepspeed_file: "1_node_4_gpus_deepspeed_zero3"
+    deepspeed_file: "1_node_8_gpus_deepspeed_zero3"
     num_node: 1
     node_index: 0
 
 model:
-    pretrained_model: "/workspace/models/sdar-4b-chat" # absolute path of your model
+    pretrained_model: "/abs/path/of/model" # absolute path of your model
     optimized_name: "optimized" # the output name for your optimized model, will be saved under sft_dream/ckpt
     model_base: "sdar" # set sdar for TraDo and SDAR
 
@@ -25,18 +25,18 @@ model:
 
 
 dataset:
-    train_dataset: "dataset_name" # "MATH_train""PrimeIntellect"
+    train_dataset: "dataset_name" # "MATH_train"
     optimization_data: "rl_data" # name of the rollout data output
     data_type: "math" # "math" "code" 
 
 # also see explanations in eval configs
 rollout:
     tensor_parallel_size: 1 # set to 1 by default, if oom, try reduce max_active first, if still oom, set tensor_parallel_size to 8
-    max_active: 32
-    num_task_per_step: 32
-    num_response_per_task: 8
+    max_active: 256
+    num_task_per_step: 64
+    num_response_per_task: 16
     temperature: 1.0
-    max_token: 1536
+    max_token: 2000
     block_size: 4
     denoising_steps_per_block: 4
     top_p: 1.0
@@ -61,7 +61,7 @@ training:
     block_size: 4
     shrink: 1
     post_num: 0
-    max_gen_length: 1536
+    max_gen_length: 2000
     max_prompt_len: 784
     lower_p: 0.1
     upper_p: 0.9
@@ -93,10 +93,10 @@ evaluation:
     eval_dataset: "MATH500"  # "MATH500" "LiveCodeBench"
     data_type: "math" # "math" "code"
     tensor_parallel_size: 1
-    max_active: 8
+    max_active: 16
     num_response_per_task: 3
     temperature: 1.0
-    max_token: 1536
+    max_token: 2000
     block_size: 4
     denoising_steps_per_block: 4
     top_p: 1.0
@@ -104,5 +104,3 @@ evaluation:
     remasking_strategy: ["low_confidence_dynamic", "low_confidence_static"] #"low_confidence_static""low_confidence_dynamic"
     dynamic_threshold: 0.9 # no use for "low_confidence_static"
     start_with_think: False
-
-# len(top_k) must == len(remasking_strategy)
