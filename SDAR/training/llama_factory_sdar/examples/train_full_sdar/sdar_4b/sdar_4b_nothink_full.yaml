@@ -1,0 +1,52 @@
+### model
+model_name_or_path: /home/ubuntu/agent/SDAR/training/model/SDAR-4B-Chat
+train_from_scratch: false
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: sdar_nothink_sft
+template: qwen3_nothink
+block_length: 4
+cutoff_len: 2320
+truncate_mode: drop
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+neat_packing: true
+
+### output
+output_dir: /lambda/nfs/agent/checkpoints/sdar_4b_nothink
+logging_steps: 1
+save_steps: 10
+save_total_limit: 20
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: tensorboard
+
+### eval
+val_size: 0.05
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 10
+
+### train
+run_name: sdar_4b_nothink
+include_effective_tokens_per_second: true
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 5.0e-6
+num_train_epochs: 3.0
+lr_scheduler_type: constant_with_warmup
+warmup_ratio: 0.03
+bf16: true
+seed: 10086
+max_grad_norm: 1.0
+ddp_timeout: 180000000
+resume_from_checkpoint: null

@@ -12,7 +12,6 @@ train.jsonl
 # Large subfolders inside SDAR
 SDAR/evaluation/opencompass/
 SDAR/training/model/
-SDAR/training/llama_factory_sdar/
 
 # Python cache
 __pycache__/
