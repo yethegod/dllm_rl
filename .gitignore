@@ -1,0 +1,39 @@
+# Large model checkpoints and weights
+checkpoints/
+
+# Model weight binaries only — keep configs, code, tokenizer files
+models/**/*.safetensors
+models/**/.cache/
+
+# Large datasets and training data
+datas/
+train.jsonl
+
+# Large subfolders inside SDAR
+SDAR/evaluation/opencompass/
+SDAR/training/model/
+SDAR/training/llama_factory_sdar/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache directories
+.cache/
+
+# Claude / agent tool configs
+.claude/
+.agents/
+.codex/
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
+*.jsonl
