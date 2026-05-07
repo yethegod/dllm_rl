@@ -1,0 +1,324 @@
+20260506_085623
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                        version    metric                        mode    sdar-new2-step010    sdar-new2-step020
+-----------------------------  ---------  ----------------------------  ------  -------------------  -------------------
+=== In-domain Math ===         -          -                             -       -                    -
+math_prm800k_500               e5f646     accuracy                      gen     61.00                70.00
+aime2024                       59702d     accuracy                      gen     10.00                6.67
+gsm8k                          bd56fc     accuracy                      gen     87.41                90.75
+Mathbench                      -          -                             -       -                    -
+                               -          -                             -       -                    -
+=== General Capability ===     -          -                             -       -                    -
+mmlu                           -          naive_average                 gen     74.39                74.33
+IFEval                         ea6fc0     Prompt-level-strict-accuracy  gen     57.49                54.16
+hellaswag                      6fd7fe     accuracy                      gen     87.11                86.90
+openai_humaneval               56bdbe     humaneval_pass@1              gen     74.39                78.66
+sanitized_mbpp                 4d4ec2     score                         gen     66.54                69.26
+                               -          -                             -       -                    -
+=== OOD Transferability ===    -          -                             -       -                    -
+livecodebench_code_generation  -          -                             -       -                    -
+GPQA_diamond                   50136a     accuracy                      gen     33.33                33.33
+                               -          -                             -       -                    -
+--- MMLU breakdown ---         -          -                             -       -                    -
+mmlu                           -          accuracy                      gen     74.39                74.33
+mmlu-stem                      -          accuracy                      gen     71.02                70.69
+mmlu-social-science            -          accuracy                      gen     81.94                81.74
+mmlu-humanities                -          accuracy                      gen     73.44                73.63
+mmlu-other                     -          accuracy                      gen     73.30                73.51
+                               -          -                             -       -                    -
+--- MathBench breakdown ---    -          -                             -       -                    -
+mathbench-a (average)          -          naive_average                 gen     61.60                49.60
+mathbench-t (average)          -          naive_average                 gen     84.86                44.59
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,sdar-new2-step010,sdar-new2-step020
+=== In-domain Math ===,-,-,-,-,-
+math_prm800k_500,e5f646,accuracy,gen,61.00,70.00
+aime2024,59702d,accuracy,gen,10.00,6.67
+gsm8k,bd56fc,accuracy,gen,87.41,90.75
+Mathbench,-,-,-,-,-
+,-,-,-,-,-
+=== General Capability ===,-,-,-,-,-
+mmlu,-,naive_average,gen,74.39,74.33
+IFEval,ea6fc0,Prompt-level-strict-accuracy,gen,57.49,54.16
+hellaswag,6fd7fe,accuracy,gen,87.11,86.90
+openai_humaneval,56bdbe,humaneval_pass@1,gen,74.39,78.66
+sanitized_mbpp,4d4ec2,score,gen,66.54,69.26
+,-,-,-,-,-
+=== OOD Transferability ===,-,-,-,-,-
+livecodebench_code_generation,-,-,-,-,-
+GPQA_diamond,50136a,accuracy,gen,33.33,33.33
+,-,-,-,-,-
+--- MMLU breakdown ---,-,-,-,-,-
+mmlu,-,accuracy,gen,74.39,74.33
+mmlu-stem,-,accuracy,gen,71.02,70.69
+mmlu-social-science,-,accuracy,gen,81.94,81.74
+mmlu-humanities,-,accuracy,gen,73.44,73.63
+mmlu-other,-,accuracy,gen,73.30,73.51
+,-,-,-,-,-
+--- MathBench breakdown ---,-,-,-,-,-
+mathbench-a (average),-,naive_average,gen,61.60,49.60
+mathbench-t (average),-,naive_average,gen,84.86,44.59
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+markdown format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| dataset | version | metric | mode | sdar-new2-step010 | sdar-new2-step020 |
+|----- | ----- | ----- | ----- | ----- | -----|
+| === In-domain Math === | - | - | - | - | - |
+| math_prm800k_500 | e5f646 | accuracy | gen | 61.00 | 70.00 |
+| aime2024 | 59702d | accuracy | gen | 10.00 | 6.67 |
+| gsm8k | bd56fc | accuracy | gen | 87.41 | 90.75 |
+| Mathbench | - | - | - | - | - |
+|  | - | - | - | - | - |
+| === General Capability === | - | - | - | - | - |
+| mmlu | - | naive_average | gen | 74.39 | 74.33 |
+| IFEval | ea6fc0 | Prompt-level-strict-accuracy | gen | 57.49 | 54.16 |
+| hellaswag | 6fd7fe | accuracy | gen | 87.11 | 86.90 |
+| openai_humaneval | 56bdbe | humaneval_pass@1 | gen | 74.39 | 78.66 |
+| sanitized_mbpp | 4d4ec2 | score | gen | 66.54 | 69.26 |
+|  | - | - | - | - | - |
+| === OOD Transferability === | - | - | - | - | - |
+| livecodebench_code_generation | - | - | - | - | - |
+| GPQA_diamond | 50136a | accuracy | gen | 33.33 | 33.33 |
+|  | - | - | - | - | - |
+| --- MMLU breakdown --- | - | - | - | - | - |
+| mmlu | - | accuracy | gen | 74.39 | 74.33 |
+| mmlu-stem | - | accuracy | gen | 71.02 | 70.69 |
+| mmlu-social-science | - | accuracy | gen | 81.94 | 81.74 |
+| mmlu-humanities | - | accuracy | gen | 73.44 | 73.63 |
+| mmlu-other | - | accuracy | gen | 73.30 | 73.51 |
+|  | - | - | - | - | - |
+| --- MathBench breakdown --- | - | - | - | - | - |
+| mathbench-a (average) | - | naive_average | gen | 61.60 | 49.60 |
+| mathbench-t (average) | - | naive_average | gen | 84.86 | 44.59 |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: sdar-new2-step010
+math_prm800k_500: {'accuracy': 61.0}
+aime2024: {'accuracy': 10.0}
+gsm8k: {'accuracy': 87.41470811220621}
+mathbench-college-single_choice_cn: {'acc_4': 53.333333333333336, 'acc_1': 57.99999999999999, 'more_1_0': 100.0, 'more_1_1': 57.99999999999999, 'more_4_0': 100.0, 'more_4_1': 72.66666666666667, 'more_4_2': 64.0, 'more_4_3': 45.33333333333333, 'more_4_4': 31.333333333333336, 'perf_1': 57.99999999999999, 'perf_4': 31.333333333333336, 'vote_4': 61.33333333333333, 'vote_1': 57.99999999999999, 'prior_A': 19.833333333333332, 'prior_B': 19.833333333333332, 'prior_C': 22.5, 'prior_D': 23.333333333333332, 'prior_-': 14.499999999999998}
+mathbench-college-single_choice_en: {'acc_4': 67.16666666666666, 'acc_1': 68.66666666666667, 'more_1_0': 100.0, 'more_1_1': 68.66666666666667, 'more_4_0': 100.0, 'more_4_1': 90.0, 'more_4_2': 74.66666666666667, 'more_4_3': 59.333333333333336, 'more_4_4': 44.666666666666664, 'perf_1': 68.66666666666667, 'perf_4': 44.666666666666664, 'vote_4': 74.0, 'vote_1': 68.66666666666667, 'prior_A': 30.166666666666668, 'prior_B': 18.833333333333332, 'prior_C': 24.833333333333332, 'prior_D': 21.833333333333332, 'prior_-': 4.333333333333334}
+mathbench-high-single_choice_cn: {'acc_4': 59.66666666666667, 'acc_1': 60.0, 'more_1_0': 100.0, 'more_1_1': 60.0, 'more_4_0': 100.0, 'more_4_1': 74.0, 'more_4_2': 62.66666666666667, 'more_4_3': 56.00000000000001, 'more_4_4': 46.0, 'perf_1': 60.0, 'perf_4': 46.0, 'vote_4': 60.0, 'vote_1': 60.0, 'prior_A': 24.166666666666668, 'prior_B': 22.5, 'prior_C': 23.333333333333332, 'prior_D': 25.0, 'prior_-': 5.0}
+mathbench-high-single_choice_en: {'acc_4': 73.66666666666667, 'acc_1': 70.0, 'more_1_0': 100.0, 'more_1_1': 70.0, 'more_4_0': 100.0, 'more_4_1': 91.33333333333333, 'more_4_2': 79.33333333333333, 'more_4_3': 65.33333333333333, 'more_4_4': 58.666666666666664, 'perf_1': 70.0, 'perf_4': 58.666666666666664, 'vote_4': 74.0, 'vote_1': 70.0, 'prior_A': 27.0, 'prior_B': 22.333333333333332, 'prior_C': 26.0, 'prior_D': 23.5, 'prior_-': 1.1666666666666667}
+mathbench-middle-single_choice_cn: {'acc_4': 92.16666666666666, 'acc_1': 92.0, 'more_1_0': 100.0, 'more_1_1': 92.0, 'more_4_0': 100.0, 'more_4_1': 96.0, 'more_4_2': 94.66666666666667, 'more_4_3': 92.0, 'more_4_4': 86.0, 'perf_1': 92.0, 'perf_4': 86.0, 'vote_4': 94.0, 'vote_1': 92.0, 'prior_A': 23.833333333333336, 'prior_B': 24.0, 'prior_C': 25.5, 'prior_D': 26.333333333333332, 'prior_-': 0.33333333333333337}
+mathbench-middle-single_choice_en: {'acc_4': 69.33333333333334, 'acc_1': 70.66666666666667, 'more_1_0': 100.0, 'more_1_1': 70.66666666666667, 'more_4_0': 100.0, 'more_4_1': 88.66666666666667, 'more_4_2': 72.0, 'more_4_3': 62.66666666666667, 'more_4_4': 54.0, 'perf_1': 70.66666666666667, 'perf_4': 54.0, 'vote_4': 74.0, 'vote_1': 70.66666666666667, 'prior_A': 31.166666666666664, 'prior_B': 21.666666666666668, 'prior_C': 24.5, 'prior_D': 21.666666666666668, 'prior_-': 1.0}
+mathbench-primary-cloze_cn: {'accuracy': 76.66666666666667}
+mathbench-primary-cloze_en: {'accuracy': 80.0}
+mathbench-arithmetic-cloze_en: {'accuracy': 69.33333333333334}
+mathbench-college_knowledge-single_choice_cn: {'acc_4': 90.34810126582279, 'acc_1': 89.55696202531645, 'more_1_0': 100.0, 'more_1_1': 89.55696202531645, 'more_4_0': 100.0, 'more_4_1': 95.88607594936708, 'more_4_2': 93.0379746835443, 'more_4_3': 88.92405063291139, 'more_4_4': 83.54430379746836, 'perf_1': 89.55696202531645, 'perf_4': 83.54430379746836, 'vote_4': 91.45569620253164, 'vote_1': 89.55696202531645, 'prior_A': 24.841772151898734, 'prior_B': 23.97151898734177, 'prior_C': 25.31645569620253, 'prior_D': 25.2373417721519, 'prior_-': 0.6329113924050633}
+mathbench-college_knowledge-single_choice_en: {'acc_4': 90.74367088607595, 'acc_1': 90.18987341772153, 'more_1_0': 100.0, 'more_1_1': 90.18987341772153, 'more_4_0': 100.0, 'more_4_1': 95.88607594936708, 'more_4_2': 95.56962025316456, 'more_4_3': 89.24050632911393, 'more_4_4': 82.27848101265823, 'perf_1': 90.18987341772153, 'perf_4': 82.27848101265823, 'vote_4': 91.77215189873418, 'vote_1': 90.18987341772153, 'prior_A': 24.841772151898734, 'prior_B': 25.395569620253166, 'prior_C': 25.079113924050635, 'prior_D': 24.367088607594937, 'prior_-': 0.31645569620253167}
+mathbench-high_knowledge-single_choice_cn: {'acc_4': 87.34042553191489, 'acc_1': 86.38297872340426, 'more_1_0': 100.0, 'more_1_1': 86.38297872340426, 'more_4_0': 100.0, 'more_4_1': 95.53191489361701, 'more_4_2': 91.06382978723404, 'more_4_3': 85.74468085106382, 'more_4_4': 77.02127659574468, 'perf_1': 86.38297872340426, 'perf_4': 77.02127659574468, 'vote_4': 88.72340425531915, 'vote_1': 86.38297872340426, 'prior_A': 24.148936170212764, 'prior_B': 23.98936170212766, 'prior_C': 25.69148936170213, 'prior_D': 25.106382978723403, 'prior_-': 1.0638297872340425}
+mathbench-high_knowledge-single_choice_en: {'acc_4': 89.41281138790036, 'acc_1': 88.61209964412812, 'more_1_0': 100.0, 'more_1_1': 88.61209964412812, 'more_4_0': 100.0, 'more_4_1': 96.79715302491103, 'more_4_2': 93.59430604982207, 'more_4_3': 88.25622775800713, 'more_4_4': 79.00355871886121, 'perf_1': 88.61209964412812, 'perf_4': 79.00355871886121, 'vote_4': 92.88256227758008, 'vote_1': 88.61209964412812, 'prior_A': 26.51245551601423, 'prior_B': 23.131672597864767, 'prior_C': 24.644128113879006, 'prior_D': 25.71174377224199, 'prior_-': 0.0}
+mathbench-middle_knowledge-single_choice_cn: {'acc_4': 93.188622754491, 'acc_1': 92.51497005988024, 'more_1_0': 100.0, 'more_1_1': 92.51497005988024, 'more_4_0': 100.0, 'more_4_1': 97.30538922155688, 'more_4_2': 95.80838323353294, 'more_4_3': 91.91616766467065, 'more_4_4': 87.72455089820359, 'perf_1': 92.51497005988024, 'perf_4': 87.72455089820359, 'vote_4': 94.61077844311377, 'vote_1': 92.51497005988024, 'prior_A': 24.32634730538922, 'prior_B': 24.775449101796408, 'prior_C': 25.748502994011975, 'prior_D': 25.0748502994012, 'prior_-': 0.07485029940119761}
+mathbench-middle_knowledge-single_choice_en: {'acc_4': 92.0, 'acc_1': 92.0, 'more_1_0': 100.0, 'more_1_1': 92.0, 'more_4_0': 100.0, 'more_4_1': 96.57142857142857, 'more_4_2': 94.85714285714286, 'more_4_3': 91.42857142857143, 'more_4_4': 85.14285714285714, 'perf_1': 92.0, 'perf_4': 85.14285714285714, 'vote_4': 94.85714285714286, 'vote_1': 92.0, 'prior_A': 25.142857142857146, 'prior_B': 24.571428571428573, 'prior_C': 25.428571428571427, 'prior_D': 24.857142857142858, 'prior_-': 0.0}
+mathbench-primary_knowledge-single_choice_cn: {'acc_4': 96.39423076923077, 'acc_1': 96.63461538461539, 'more_1_0': 100.0, 'more_1_1': 96.63461538461539, 'more_4_0': 100.0, 'more_4_1': 98.07692307692307, 'more_4_2': 96.63461538461539, 'more_4_3': 96.63461538461539, 'more_4_4': 94.23076923076923, 'perf_1': 96.63461538461539, 'perf_4': 94.23076923076923, 'vote_4': 96.63461538461539, 'vote_1': 96.63461538461539, 'prior_A': 24.759615384615387, 'prior_B': 24.879807692307693, 'prior_C': 25.120192307692307, 'prior_D': 25.240384615384613, 'prior_-': 0.0}
+mathbench-primary_knowledge-single_choice_en: {'acc_4': 95.87155963302753, 'acc_1': 95.41284403669725, 'more_1_0': 100.0, 'more_1_1': 95.41284403669725, 'more_4_0': 100.0, 'more_4_1': 99.08256880733946, 'more_4_2': 98.1651376146789, 'more_4_3': 96.3302752293578, 'more_4_4': 89.90825688073394, 'perf_1': 95.41284403669725, 'perf_4': 89.90825688073394, 'vote_4': 98.1651376146789, 'vote_1': 95.41284403669725, 'prior_A': 25.0, 'prior_B': 25.229357798165136, 'prior_C': 25.688073394495415, 'prior_D': 24.08256880733945, 'prior_-': 0.0}
+lukaemon_mmlu_college_biology: {'accuracy': 83.33333333333334}
+lukaemon_mmlu_college_chemistry: {'accuracy': 54.0}
+lukaemon_mmlu_college_computer_science: {'accuracy': 72.0}
+lukaemon_mmlu_college_mathematics: {'accuracy': 55.00000000000001}
+lukaemon_mmlu_college_physics: {'accuracy': 59.80392156862745}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 73.79310344827587}
+lukaemon_mmlu_astronomy: {'accuracy': 87.5}
+lukaemon_mmlu_anatomy: {'accuracy': 68.14814814814815}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 59.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 60.71428571428571}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 78.8679245283019}
+lukaemon_mmlu_global_facts: {'accuracy': 45.0}
+lukaemon_mmlu_management: {'accuracy': 86.40776699029125}
+lukaemon_mmlu_nutrition: {'accuracy': 79.41176470588235}
+lukaemon_mmlu_marketing: {'accuracy': 89.31623931623932}
+lukaemon_mmlu_professional_accounting: {'accuracy': 56.73758865248227}
+lukaemon_mmlu_high_school_geography: {'accuracy': 90.40404040404042}
+lukaemon_mmlu_international_law: {'accuracy': 81.81818181818183}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 44.80446927374302}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 92.01680672268907}
+lukaemon_mmlu_professional_law: {'accuracy': 50.521512385919166}
+lukaemon_mmlu_medical_genetics: {'accuracy': 85.0}
+lukaemon_mmlu_professional_psychology: {'accuracy': 75.0}
+lukaemon_mmlu_jurisprudence: {'accuracy': 75.0}
+lukaemon_mmlu_world_religions: {'accuracy': 81.28654970760235}
+lukaemon_mmlu_philosophy: {'accuracy': 73.63344051446946}
+lukaemon_mmlu_virology: {'accuracy': 52.40963855421686}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.39901477832512}
+lukaemon_mmlu_public_relations: {'accuracy': 68.18181818181817}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 81.7948717948718}
+lukaemon_mmlu_human_sexuality: {'accuracy': 80.91603053435115}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 73.28042328042328}
+lukaemon_mmlu_high_school_physics: {'accuracy': 63.576158940397356}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 88.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122}
+lukaemon_mmlu_business_ethics: {'accuracy': 79.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 74.85549132947978}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 72.22222222222221}
+lukaemon_mmlu_miscellaneous: {'accuracy': 80.33205619412516}
+lukaemon_mmlu_formal_logic: {'accuracy': 62.698412698412696}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 91.19170984455958}
+lukaemon_mmlu_prehistory: {'accuracy': 75.61728395061729}
+lukaemon_mmlu_security_studies: {'accuracy': 75.10204081632654}
+lukaemon_mmlu_high_school_biology: {'accuracy': 88.38709677419355}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 85.88957055214725}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 83.12236286919831}
+lukaemon_mmlu_professional_medicine: {'accuracy': 77.20588235294117}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 55.925925925925924}
+lukaemon_mmlu_college_medicine: {'accuracy': 72.83236994219652}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 84.31372549019608}
+lukaemon_mmlu_sociology: {'accuracy': 84.5771144278607}
+lukaemon_mmlu_econometrics: {'accuracy': 68.42105263157895}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 88.62385321100918}
+lukaemon_mmlu_human_aging: {'accuracy': 70.4035874439462}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 87.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 81.27659574468085}
+IFEval: {'Prompt-level-strict-accuracy': 57.48613678373382, 'Inst-level-strict-accuracy': 66.18705035971223, 'Prompt-level-loose-accuracy': 61.737523105360445, 'Inst-level-loose-accuracy': 70.14388489208633}
+hellaswag: {'accuracy': 87.11412069308902}
+openai_humaneval: {'humaneval_pass@1': 74.39024390243902}
+sanitized_mbpp: {'pass': 171.0, 'timeout': 0.0, 'failed': 20.0, 'wrong_answer': 66.0, 'score': 66.53696498054474}
+lcb_code_generation: {'pass@1': 25.75}
+lcb_code_execution: {'pass@1': 45.3027139874739}
+lcb_test_output: {'pass@1': 44.11764705882353}
+GPQA_diamond: {'accuracy': 33.333333333333336}
+mmlu-humanities: {'accuracy': 73.44408629246836, 'naive_average': 73.44408629246836}
+mmlu-stem: {'accuracy': 71.0189594673073, 'naive_average': 71.0189594673073}
+mmlu-social-science: {'accuracy': 81.93577821409212, 'naive_average': 81.93577821409212}
+mmlu-other: {'accuracy': 73.30190912927868, 'naive_average': 73.30190912927868}
+mmlu: {'accuracy': 74.391008928608, 'naive_average': 74.391008928608}
+mmlu-weighted: {'accuracy': 71.89858994445235, 'weighted_average': 71.89858994445235}
+college: {'naive_average': 38.0}
+high: {'naive_average': 52.33333333333333}
+middle: {'naive_average': 70.0}
+primary: {'naive_average': 78.33333333333334}
+arithmetic: {'naive_average': 69.33333333333334}
+mathbench-a-cn: {'naive_average': 70.45833333333333}
+mathbench-a-en: {'naive_average': 72.54166666666666}
+mathbench-a (average): {'naive_average': 61.6}
+college_knowledge: {'naive_average': 82.9113924050633}
+high_knowledge: {'naive_average': 78.01241765730295}
+middle_knowledge: {'naive_average': 86.43370402053037}
+primary_knowledge: {'naive_average': 92.06951305575159}
+mathbench-t-cn: {'more_1_1': 91.27238154830408, 'prior_C': 25.469160089902235, 'prior_D': 25.16473991641528, 'more_4_3': 90.8048786333153, 'perf_1': 91.27238154830408, 'vote_1': 91.27238154830408, 'prior_A': 24.519167753029027, 'more_4_1': 96.70007578536601, 'prior_-': 0.4428978697600759, 'more_1_0': 100.0, 'prior_B': 24.404034370893385, 'more_4_4': 85.63022513054646, 'acc_1': 91.27238154830408, 'vote_4': 92.85612357139499, 'acc_4': 91.81784508036486, 'more_4_0': 100.0, 'perf_4': 85.63022513054646, 'more_4_2': 94.13620077223166, 'naive_average': 91.81784508036486}
+mathbench-t-en: {'more_1_1': 91.55370427463673, 'prior_C': 25.20997171524912, 'prior_D': 24.75463601107981, 'more_4_3': 91.31389518626258, 'perf_1': 91.55370427463673, 'vote_1': 91.55370427463673, 'prior_A': 25.374271202692526, 'more_4_1': 97.08430658826153, 'prior_-': 0.07911392405063292, 'more_1_0': 100.0, 'prior_B': 24.58200714692791, 'more_4_4': 84.08328843877763, 'acc_1': 91.55370427463673, 'vote_4': 94.419248662034, 'acc_4': 92.00701047675095, 'more_4_0': 100.0, 'perf_4': 84.08328843877763, 'more_4_2': 95.5465516937021, 'naive_average': 92.00701047675095}
+mathbench-t (average): {'naive_average': 84.85675678466205}
+Overall: {'naive_average': 73.22837839233102}
+-------------------------------
+Model: sdar-new2-step020
+math_prm800k_500: {'accuracy': 70.0}
+aime2024: {'accuracy': 6.666666666666667}
+gsm8k: {'accuracy': 90.7505686125853}
+mathbench-college-single_choice_cn: {'acc_4': 52.0, 'acc_1': 54.666666666666664, 'more_1_0': 100.0, 'more_1_1': 54.666666666666664, 'more_4_0': 100.0, 'more_4_1': 77.33333333333333, 'more_4_2': 57.99999999999999, 'more_4_3': 44.666666666666664, 'more_4_4': 28.000000000000004, 'perf_1': 54.666666666666664, 'perf_4': 28.000000000000004, 'vote_4': 54.0, 'vote_1': 54.666666666666664, 'prior_A': 23.5, 'prior_B': 20.166666666666664, 'prior_C': 21.166666666666668, 'prior_D': 23.833333333333336, 'prior_-': 11.333333333333332}
+mathbench-college-single_choice_en: {'acc_4': 40.833333333333336, 'acc_1': 42.66666666666667, 'more_1_0': 100.0, 'more_1_1': 42.66666666666667, 'more_4_0': 100.0, 'more_4_1': 96.0, 'more_4_2': 42.66666666666667, 'more_4_3': 16.666666666666664, 'more_4_4': 8.0, 'perf_1': 42.66666666666667, 'perf_4': 8.0, 'vote_4': 52.0, 'vote_1': 42.66666666666667, 'prior_A': 74.66666666666667, 'prior_B': 8.0, 'prior_C': 8.833333333333334, 'prior_D': 8.166666666666666, 'prior_-': 0.33333333333333337}
+mathbench-high-single_choice_cn: {'acc_4': 62.33333333333333, 'acc_1': 62.66666666666667, 'more_1_0': 100.0, 'more_1_1': 62.66666666666667, 'more_4_0': 100.0, 'more_4_1': 80.66666666666666, 'more_4_2': 66.0, 'more_4_3': 56.00000000000001, 'more_4_4': 46.666666666666664, 'perf_1': 62.66666666666667, 'perf_4': 46.666666666666664, 'vote_4': 66.66666666666666, 'vote_1': 62.66666666666667, 'prior_A': 25.5, 'prior_B': 19.0, 'prior_C': 24.5, 'prior_D': 25.5, 'prior_-': 5.5}
+mathbench-high-single_choice_en: {'acc_4': 41.66666666666667, 'acc_1': 44.0, 'more_1_0': 100.0, 'more_1_1': 44.0, 'more_4_0': 100.0, 'more_4_1': 98.0, 'more_4_2': 44.666666666666664, 'more_4_3': 19.333333333333332, 'more_4_4': 4.666666666666667, 'perf_1': 44.0, 'perf_4': 4.666666666666667, 'vote_4': 55.333333333333336, 'vote_1': 44.0, 'prior_A': 73.83333333333333, 'prior_B': 7.5, 'prior_C': 11.333333333333332, 'prior_D': 7.333333333333333, 'prior_-': 0.0}
+mathbench-middle-single_choice_cn: {'acc_4': 91.0, 'acc_1': 91.33333333333333, 'more_1_0': 100.0, 'more_1_1': 91.33333333333333, 'more_4_0': 100.0, 'more_4_1': 96.0, 'more_4_2': 94.0, 'more_4_3': 90.0, 'more_4_4': 84.0, 'perf_1': 91.33333333333333, 'perf_4': 84.0, 'vote_4': 92.0, 'vote_1': 91.33333333333333, 'prior_A': 24.5, 'prior_B': 24.5, 'prior_C': 25.0, 'prior_D': 25.5, 'prior_-': 0.5}
+mathbench-middle-single_choice_en: {'acc_4': 38.166666666666664, 'acc_1': 32.0, 'more_1_0': 100.0, 'more_1_1': 32.0, 'more_4_0': 100.0, 'more_4_1': 98.0, 'more_4_2': 32.0, 'more_4_3': 18.0, 'more_4_4': 4.666666666666667, 'perf_1': 32.0, 'perf_4': 4.666666666666667, 'vote_4': 44.666666666666664, 'vote_1': 32.0, 'prior_A': 81.33333333333333, 'prior_B': 6.333333333333334, 'prior_C': 8.166666666666666, 'prior_D': 4.166666666666666, 'prior_-': 0.0}
+mathbench-primary-cloze_cn: {'accuracy': 82.0}
+mathbench-primary-cloze_en: {'accuracy': 86.0}
+mathbench-arithmetic-cloze_en: {'accuracy': 76.0}
+mathbench-college_knowledge-single_choice_cn: {'acc_4': 87.9746835443038, 'acc_1': 88.29113924050634, 'more_1_0': 100.0, 'more_1_1': 88.29113924050634, 'more_4_0': 100.0, 'more_4_1': 95.56962025316456, 'more_4_2': 92.08860759493672, 'more_4_3': 87.34177215189874, 'more_4_4': 76.89873417721519, 'perf_1': 88.29113924050634, 'perf_4': 76.89873417721519, 'vote_4': 91.13924050632912, 'vote_1': 88.29113924050634, 'prior_A': 24.841772151898734, 'prior_B': 25.079113924050635, 'prior_C': 25.55379746835443, 'prior_D': 24.12974683544304, 'prior_-': 0.39556962025316456}
+mathbench-college_knowledge-single_choice_en: {'acc_4': 48.813291139240505, 'acc_1': 46.835443037974684, 'more_1_0': 100.0, 'more_1_1': 46.835443037974684, 'more_4_0': 100.0, 'more_4_1': 97.46835443037975, 'more_4_2': 62.9746835443038, 'more_4_3': 28.164556962025316, 'more_4_4': 6.645569620253164, 'perf_1': 46.835443037974684, 'perf_4': 6.645569620253164, 'vote_4': 68.0379746835443, 'vote_1': 46.835443037974684, 'prior_A': 70.49050632911393, 'prior_B': 9.81012658227848, 'prior_C': 9.49367088607595, 'prior_D': 10.126582278481013, 'prior_-': 0.07911392405063292}
+mathbench-high_knowledge-single_choice_cn: {'acc_4': 85.79787234042553, 'acc_1': 86.38297872340426, 'more_1_0': 100.0, 'more_1_1': 86.38297872340426, 'more_4_0': 100.0, 'more_4_1': 95.53191489361701, 'more_4_2': 91.06382978723404, 'more_4_3': 83.82978723404256, 'more_4_4': 72.76595744680851, 'perf_1': 86.38297872340426, 'perf_4': 72.76595744680851, 'vote_4': 88.29787234042553, 'vote_1': 86.38297872340426, 'prior_A': 24.78723404255319, 'prior_B': 24.25531914893617, 'prior_C': 25.159574468085104, 'prior_D': 24.78723404255319, 'prior_-': 1.0106382978723405}
+mathbench-high_knowledge-single_choice_en: {'acc_4': 46.79715302491103, 'acc_1': 45.90747330960854, 'more_1_0': 100.0, 'more_1_1': 45.90747330960854, 'more_4_0': 100.0, 'more_4_1': 97.15302491103202, 'more_4_2': 59.430604982206404, 'more_4_3': 23.487544483985765, 'more_4_4': 7.11743772241993, 'perf_1': 45.90747330960854, 'perf_4': 7.11743772241993, 'vote_4': 68.32740213523132, 'vote_1': 45.90747330960854, 'prior_A': 71.61921708185054, 'prior_B': 9.519572953736654, 'prior_C': 9.341637010676157, 'prior_D': 9.519572953736654, 'prior_-': 0.0}
+mathbench-middle_knowledge-single_choice_cn: {'acc_4': 92.81437125748504, 'acc_1': 93.41317365269461, 'more_1_0': 100.0, 'more_1_1': 93.41317365269461, 'more_4_0': 100.0, 'more_4_1': 97.0059880239521, 'more_4_2': 94.91017964071857, 'more_4_3': 92.81437125748504, 'more_4_4': 86.52694610778443, 'perf_1': 93.41317365269461, 'perf_4': 86.52694610778443, 'vote_4': 94.311377245509, 'vote_1': 93.41317365269461, 'prior_A': 24.550898203592812, 'prior_B': 24.40119760479042, 'prior_C': 25.59880239520958, 'prior_D': 25.299401197604794, 'prior_-': 0.14970059880239522}
+mathbench-middle_knowledge-single_choice_en: {'acc_4': 47.57142857142857, 'acc_1': 45.714285714285715, 'more_1_0': 100.0, 'more_1_1': 45.714285714285715, 'more_4_0': 100.0, 'more_4_1': 97.71428571428571, 'more_4_2': 57.14285714285714, 'more_4_3': 26.857142857142858, 'more_4_4': 8.571428571428571, 'perf_1': 45.714285714285715, 'perf_4': 8.571428571428571, 'vote_4': 68.57142857142857, 'vote_1': 45.714285714285715, 'prior_A': 74.0, 'prior_B': 9.857142857142858, 'prior_C': 8.142857142857144, 'prior_D': 8.0, 'prior_-': 0.0}
+mathbench-primary_knowledge-single_choice_cn: {'acc_4': 94.95192307692307, 'acc_1': 94.23076923076923, 'more_1_0': 100.0, 'more_1_1': 94.23076923076923, 'more_4_0': 100.0, 'more_4_1': 98.5576923076923, 'more_4_2': 97.11538461538461, 'more_4_3': 94.23076923076923, 'more_4_4': 89.90384615384616, 'perf_1': 94.23076923076923, 'perf_4': 89.90384615384616, 'vote_4': 96.15384615384616, 'vote_1': 94.23076923076923, 'prior_A': 24.278846153846153, 'prior_B': 25.48076923076923, 'prior_C': 24.879807692307693, 'prior_D': 24.639423076923077, 'prior_-': 0.7211538461538461}
+mathbench-primary_knowledge-single_choice_en: {'acc_4': 51.37614678899083, 'acc_1': 56.88073394495413, 'more_1_0': 100.0, 'more_1_1': 56.88073394495413, 'more_4_0': 100.0, 'more_4_1': 98.1651376146789, 'more_4_2': 66.05504587155964, 'more_4_3': 33.02752293577982, 'more_4_4': 8.256880733944955, 'perf_1': 56.88073394495413, 'perf_4': 8.256880733944955, 'vote_4': 74.31192660550458, 'vote_1': 56.88073394495413, 'prior_A': 71.3302752293578, 'prior_B': 11.697247706422019, 'prior_C': 8.486238532110093, 'prior_D': 8.486238532110093, 'prior_-': 0.0}
+lukaemon_mmlu_college_biology: {'accuracy': 82.63888888888889}
+lukaemon_mmlu_college_chemistry: {'accuracy': 54.0}
+lukaemon_mmlu_college_computer_science: {'accuracy': 72.0}
+lukaemon_mmlu_college_mathematics: {'accuracy': 51.0}
+lukaemon_mmlu_college_physics: {'accuracy': 61.76470588235294}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 75.17241379310344}
+lukaemon_mmlu_astronomy: {'accuracy': 86.8421052631579}
+lukaemon_mmlu_anatomy: {'accuracy': 68.14814814814815}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 60.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 60.71428571428571}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 77.73584905660378}
+lukaemon_mmlu_global_facts: {'accuracy': 48.0}
+lukaemon_mmlu_management: {'accuracy': 85.43689320388349}
+lukaemon_mmlu_nutrition: {'accuracy': 79.73856209150327}
+lukaemon_mmlu_marketing: {'accuracy': 88.88888888888889}
+lukaemon_mmlu_professional_accounting: {'accuracy': 55.319148936170215}
+lukaemon_mmlu_high_school_geography: {'accuracy': 90.40404040404042}
+lukaemon_mmlu_international_law: {'accuracy': 83.47107438016529}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 42.011173184357546}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 90.75630252100841}
+lukaemon_mmlu_professional_law: {'accuracy': 50.717079530638856}
+lukaemon_mmlu_medical_genetics: {'accuracy': 87.0}
+lukaemon_mmlu_professional_psychology: {'accuracy': 75.16339869281046}
+lukaemon_mmlu_jurisprudence: {'accuracy': 75.92592592592592}
+lukaemon_mmlu_world_religions: {'accuracy': 81.87134502923976}
+lukaemon_mmlu_philosophy: {'accuracy': 74.27652733118971}
+lukaemon_mmlu_virology: {'accuracy': 52.40963855421686}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.39901477832512}
+lukaemon_mmlu_public_relations: {'accuracy': 68.18181818181817}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 80.76923076923077}
+lukaemon_mmlu_human_sexuality: {'accuracy': 81.67938931297711}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 74.07407407407408}
+lukaemon_mmlu_high_school_physics: {'accuracy': 59.60264900662252}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 87.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122}
+lukaemon_mmlu_business_ethics: {'accuracy': 80.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 74.85549132947978}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 73.14814814814815}
+lukaemon_mmlu_miscellaneous: {'accuracy': 80.5874840357599}
+lukaemon_mmlu_formal_logic: {'accuracy': 62.698412698412696}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 90.67357512953367}
+lukaemon_mmlu_prehistory: {'accuracy': 75.61728395061729}
+lukaemon_mmlu_security_studies: {'accuracy': 74.6938775510204}
+lukaemon_mmlu_high_school_biology: {'accuracy': 88.06451612903226}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 86.50306748466258}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 82.70042194092827}
+lukaemon_mmlu_professional_medicine: {'accuracy': 76.47058823529412}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 53.333333333333336}
+lukaemon_mmlu_college_medicine: {'accuracy': 72.25433526011561}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 85.29411764705883}
+lukaemon_mmlu_sociology: {'accuracy': 85.07462686567165}
+lukaemon_mmlu_econometrics: {'accuracy': 68.42105263157895}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 88.07339449541286}
+lukaemon_mmlu_human_aging: {'accuracy': 71.74887892376681}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 87.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 82.12765957446808}
+IFEval: {'Prompt-level-strict-accuracy': 54.15896487985212, 'Inst-level-strict-accuracy': 64.38848920863309, 'Prompt-level-loose-accuracy': 58.59519408502772, 'Inst-level-loose-accuracy': 68.34532374100719}
+hellaswag: {'accuracy': 86.89504082852022}
+openai_humaneval: {'humaneval_pass@1': 78.65853658536585}
+sanitized_mbpp: {'pass': 178.0, 'timeout': 0.0, 'failed': 15.0, 'wrong_answer': 64.0, 'score': 69.26070038910505}
+lcb_code_generation: {'pass@1': 22.25}
+lcb_code_execution: {'pass@1': 28.81002087682672}
+lcb_test_output: {'pass@1': 42.081447963800905}
+GPQA_diamond: {'accuracy': 33.333333333333336}
+mmlu-humanities: {'accuracy': 73.62723397267676, 'naive_average': 73.62723397267676}
+mmlu-stem: {'accuracy': 70.68578645968108, 'naive_average': 70.68578645968108}
+mmlu-social-science: {'accuracy': 81.74089221292523, 'naive_average': 81.74089221292523}
+mmlu-other: {'accuracy': 73.50694362970792, 'naive_average': 73.50694362970792}
+mmlu: {'accuracy': 74.3274554056148, 'naive_average': 74.3274554056148}
+mmlu-weighted: {'accuracy': 71.67070217917676, 'weighted_average': 71.67070217917676}
+college: {'naive_average': 18.0}
+high: {'naive_average': 25.666666666666664}
+middle: {'naive_average': 44.333333333333336}
+primary: {'naive_average': 84.0}
+arithmetic: {'naive_average': 76.0}
+mathbench-a-cn: {'naive_average': 71.83333333333333}
+mathbench-a-en: {'naive_average': 51.666666666666664}
+mathbench-a (average): {'naive_average': 49.6}
+college_knowledge: {'naive_average': 41.77215189873418}
+high_knowledge: {'naive_average': 39.941697584614225}
+middle_knowledge: {'naive_average': 47.5491873396065}
+primary_knowledge: {'naive_average': 49.08036344389556}
+mathbench-t-cn: {'more_1_1': 90.5795152118436, 'prior_C': 25.297995505989203, 'prior_D': 24.713951288131025, 'more_4_3': 89.55417496854889, 'perf_1': 90.5795152118436, 'vote_1': 90.5795152118436, 'prior_A': 24.61468763797272, 'more_4_1': 96.6663038696065, 'prior_-': 0.5692655907704366, 'more_1_0': 100.0, 'prior_B': 24.804099977136612, 'more_4_4': 81.52387097141357, 'acc_1': 90.5795152118436, 'vote_4': 92.47558406152746, 'acc_4': 90.38471255478436, 'more_4_0': 100.0, 'perf_4': 81.52387097141357, 'more_4_2': 93.79450040956849, 'naive_average': 90.38471255478436}
+mathbench-t-en: {'more_1_1': 48.83448400170577, 'prior_C': 8.866100892929836, 'prior_D': 9.03309844108194, 'more_4_3': 27.884191809733437, 'perf_1': 48.83448400170577, 'vote_1': 48.83448400170577, 'prior_A': 71.85999966008058, 'more_4_1': 97.62520066759409, 'prior_-': 0.01977848101265823, 'more_1_0': 100.0, 'prior_B': 10.221022524895002, 'more_4_4': 7.647829162011655, 'acc_1': 48.83448400170577, 'vote_4': 69.8121829989272, 'acc_4': 48.639504881142734, 'more_4_0': 100.0, 'perf_4': 7.647829162011655, 'more_4_2': 61.40079788523174, 'naive_average': 48.639504881142734}
+mathbench-t (average): {'naive_average': 44.58585006671262}
+Overall: {'naive_average': 47.09292503335631}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

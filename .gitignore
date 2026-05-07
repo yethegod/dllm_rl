@@ -42,6 +42,5 @@ build/
 
 # Logs and outputs
 *.log
-outputs/
 wandb/
 runs/

@@ -1,6 +1,13 @@
 .DS_Store
 output_*/
 outputs/
+!outputs/eval-sdar-new-ckpts-2/
+!outputs/eval-sdar-new-ckpts-2/20260506_085623/
+!outputs/eval-sdar-new-ckpts-2/20260506_085623/.gitignore
+!outputs/eval-sdar-new-ckpts-2/20260506_085623/predictions/
+!outputs/eval-sdar-new-ckpts-2/20260506_085623/predictions/**
+!outputs/eval-sdar-new-ckpts-2/20260506_085623/summary/
+!outputs/eval-sdar-new-ckpts-2/20260506_085623/summary/**
 scripts/
 icl_inference_output/
 .vscode/
@@ -15,7 +22,7 @@ configs/**/*_bkup.py
 opencompass/**/*_bkup.py
 data
 work_dirs
-outputs
+#outputs
 models/*
 configs/internal/
 # Byte-compiled / optimized / DLL files

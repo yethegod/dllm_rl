@@ -1,0 +1,28 @@
+dataset,version,metric,mode,sdar-new2-step010,sdar-new2-step020
+=== In-domain Math ===,-,-,-,-,-
+math_prm800k_500,e5f646,accuracy,gen,61.00,70.00
+aime2024,59702d,accuracy,gen,10.00,6.67
+gsm8k,bd56fc,accuracy,gen,87.41,90.75
+Mathbench,-,-,-,-,-
+,-,-,-,-,-
+=== General Capability ===,-,-,-,-,-
+mmlu,-,naive_average,gen,74.39,74.33
+IFEval,ea6fc0,Prompt-level-strict-accuracy,gen,57.49,54.16
+hellaswag,6fd7fe,accuracy,gen,87.11,86.90
+openai_humaneval,56bdbe,humaneval_pass@1,gen,74.39,78.66
+sanitized_mbpp,4d4ec2,score,gen,66.54,69.26
+,-,-,-,-,-
+=== OOD Transferability ===,-,-,-,-,-
+livecodebench_code_generation,-,-,-,-,-
+GPQA_diamond,50136a,accuracy,gen,33.33,33.33
+,-,-,-,-,-
+--- MMLU breakdown ---,-,-,-,-,-
+mmlu,-,accuracy,gen,74.39,74.33
+mmlu-stem,-,accuracy,gen,71.02,70.69
+mmlu-social-science,-,accuracy,gen,81.94,81.74
+mmlu-humanities,-,accuracy,gen,73.44,73.63
+mmlu-other,-,accuracy,gen,73.30,73.51
+,-,-,-,-,-
+--- MathBench breakdown ---,-,-,-,-,-
+mathbench-a (average),-,naive_average,gen,61.60,49.60
+mathbench-t (average),-,naive_average,gen,84.86,44.59

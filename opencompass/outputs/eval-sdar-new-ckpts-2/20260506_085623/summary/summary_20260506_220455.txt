@@ -1,0 +1,319 @@
+20260506_220455
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                      version    metric                        mode    sdar-new2-step010    sdar-new2-step020    sdar-new2-step040
+---------------------------  ---------  ----------------------------  ------  -------------------  -------------------  -------------------
+=== In-domain Math ===       -          -                             -       -                    -                    -
+math_prm800k_500             e5f646     accuracy                      gen     61.00                70.00                69.20
+aime2024                     59702d     accuracy                      gen     10.00                6.67                 0.00
+gsm8k                        bd56fc     accuracy                      gen     87.41                90.75                88.93
+                             -          -                             -       -                    -                    -
+=== General Capability ===   -          -                             -       -                    -                    -
+mmlu                         -          naive_average                 gen     74.39                74.33                74.19
+IFEval                       ea6fc0     Prompt-level-strict-accuracy  gen     57.49                54.16                52.31
+hellaswag                    6fd7fe     accuracy                      gen     87.11                86.90                86.86
+openai_humaneval             56bdbe     humaneval_pass@1              gen     74.39                78.66                79.88
+sanitized_mbpp               4d4ec2     score                         gen     66.54                69.26                69.65
+                             -          -                             -       -                    -                    -
+=== OOD Transferability ===  -          -                             -       -                    -                    -
+lcb_code_generation          11f504     pass@1                        gen     25.75                22.25                16.50
+GPQA_diamond                 50136a     accuracy                      gen     33.33                33.33                38.38
+                             -          -                             -       -                    -                    -
+--- MMLU breakdown ---       -          -                             -       -                    -                    -
+mmlu                         -          accuracy                      gen     74.39                74.33                74.19
+mmlu-stem                    -          accuracy                      gen     71.02                70.69                70.29
+mmlu-social-science          -          accuracy                      gen     81.94                81.74                81.59
+mmlu-humanities              -          accuracy                      gen     73.44                73.63                73.72
+mmlu-other                   -          accuracy                      gen     73.30                73.51                73.53
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,sdar-new2-step010,sdar-new2-step020,sdar-new2-step040
+=== In-domain Math ===,-,-,-,-,-,-
+math_prm800k_500,e5f646,accuracy,gen,61.00,70.00,69.20
+aime2024,59702d,accuracy,gen,10.00,6.67,0.00
+gsm8k,bd56fc,accuracy,gen,87.41,90.75,88.93
+,-,-,-,-,-,-
+=== General Capability ===,-,-,-,-,-,-
+mmlu,-,naive_average,gen,74.39,74.33,74.19
+IFEval,ea6fc0,Prompt-level-strict-accuracy,gen,57.49,54.16,52.31
+hellaswag,6fd7fe,accuracy,gen,87.11,86.90,86.86
+openai_humaneval,56bdbe,humaneval_pass@1,gen,74.39,78.66,79.88
+sanitized_mbpp,4d4ec2,score,gen,66.54,69.26,69.65
+,-,-,-,-,-,-
+=== OOD Transferability ===,-,-,-,-,-,-
+lcb_code_generation,11f504,pass@1,gen,25.75,22.25,16.50
+GPQA_diamond,50136a,accuracy,gen,33.33,33.33,38.38
+,-,-,-,-,-,-
+--- MMLU breakdown ---,-,-,-,-,-,-
+mmlu,-,accuracy,gen,74.39,74.33,74.19
+mmlu-stem,-,accuracy,gen,71.02,70.69,70.29
+mmlu-social-science,-,accuracy,gen,81.94,81.74,81.59
+mmlu-humanities,-,accuracy,gen,73.44,73.63,73.72
+mmlu-other,-,accuracy,gen,73.30,73.51,73.53
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+markdown format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| dataset | version | metric | mode | sdar-new2-step010 | sdar-new2-step020 | sdar-new2-step040 |
+|----- | ----- | ----- | ----- | ----- | ----- | -----|
+| === In-domain Math === | - | - | - | - | - | - |
+| math_prm800k_500 | e5f646 | accuracy | gen | 61.00 | 70.00 | 69.20 |
+| aime2024 | 59702d | accuracy | gen | 10.00 | 6.67 | 0.00 |
+| gsm8k | bd56fc | accuracy | gen | 87.41 | 90.75 | 88.93 |
+|  | - | - | - | - | - | - |
+| === General Capability === | - | - | - | - | - | - |
+| mmlu | - | naive_average | gen | 74.39 | 74.33 | 74.19 |
+| IFEval | ea6fc0 | Prompt-level-strict-accuracy | gen | 57.49 | 54.16 | 52.31 |
+| hellaswag | 6fd7fe | accuracy | gen | 87.11 | 86.90 | 86.86 |
+| openai_humaneval | 56bdbe | humaneval_pass@1 | gen | 74.39 | 78.66 | 79.88 |
+| sanitized_mbpp | 4d4ec2 | score | gen | 66.54 | 69.26 | 69.65 |
+|  | - | - | - | - | - | - |
+| === OOD Transferability === | - | - | - | - | - | - |
+| lcb_code_generation | 11f504 | pass@1 | gen | 25.75 | 22.25 | 16.50 |
+| GPQA_diamond | 50136a | accuracy | gen | 33.33 | 33.33 | 38.38 |
+|  | - | - | - | - | - | - |
+| --- MMLU breakdown --- | - | - | - | - | - | - |
+| mmlu | - | accuracy | gen | 74.39 | 74.33 | 74.19 |
+| mmlu-stem | - | accuracy | gen | 71.02 | 70.69 | 70.29 |
+| mmlu-social-science | - | accuracy | gen | 81.94 | 81.74 | 81.59 |
+| mmlu-humanities | - | accuracy | gen | 73.44 | 73.63 | 73.72 |
+| mmlu-other | - | accuracy | gen | 73.30 | 73.51 | 73.53 |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: sdar-new2-step010
+math_prm800k_500: {'accuracy': 61.0}
+aime2024: {'accuracy': 10.0}
+gsm8k: {'accuracy': 87.41470811220621}
+lukaemon_mmlu_college_biology: {'accuracy': 83.33333333333334}
+lukaemon_mmlu_college_chemistry: {'accuracy': 54.0}
+lukaemon_mmlu_college_computer_science: {'accuracy': 72.0}
+lukaemon_mmlu_college_mathematics: {'accuracy': 55.00000000000001}
+lukaemon_mmlu_college_physics: {'accuracy': 59.80392156862745}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 73.79310344827587}
+lukaemon_mmlu_astronomy: {'accuracy': 87.5}
+lukaemon_mmlu_anatomy: {'accuracy': 68.14814814814815}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 59.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 60.71428571428571}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 78.8679245283019}
+lukaemon_mmlu_global_facts: {'accuracy': 45.0}
+lukaemon_mmlu_management: {'accuracy': 86.40776699029125}
+lukaemon_mmlu_nutrition: {'accuracy': 79.41176470588235}
+lukaemon_mmlu_marketing: {'accuracy': 89.31623931623932}
+lukaemon_mmlu_professional_accounting: {'accuracy': 56.73758865248227}
+lukaemon_mmlu_high_school_geography: {'accuracy': 90.40404040404042}
+lukaemon_mmlu_international_law: {'accuracy': 81.81818181818183}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 44.80446927374302}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 92.01680672268907}
+lukaemon_mmlu_professional_law: {'accuracy': 50.521512385919166}
+lukaemon_mmlu_medical_genetics: {'accuracy': 85.0}
+lukaemon_mmlu_professional_psychology: {'accuracy': 75.0}
+lukaemon_mmlu_jurisprudence: {'accuracy': 75.0}
+lukaemon_mmlu_world_religions: {'accuracy': 81.28654970760235}
+lukaemon_mmlu_philosophy: {'accuracy': 73.63344051446946}
+lukaemon_mmlu_virology: {'accuracy': 52.40963855421686}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.39901477832512}
+lukaemon_mmlu_public_relations: {'accuracy': 68.18181818181817}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 81.7948717948718}
+lukaemon_mmlu_human_sexuality: {'accuracy': 80.91603053435115}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 73.28042328042328}
+lukaemon_mmlu_high_school_physics: {'accuracy': 63.576158940397356}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 88.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122}
+lukaemon_mmlu_business_ethics: {'accuracy': 79.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 74.85549132947978}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 72.22222222222221}
+lukaemon_mmlu_miscellaneous: {'accuracy': 80.33205619412516}
+lukaemon_mmlu_formal_logic: {'accuracy': 62.698412698412696}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 91.19170984455958}
+lukaemon_mmlu_prehistory: {'accuracy': 75.61728395061729}
+lukaemon_mmlu_security_studies: {'accuracy': 75.10204081632654}
+lukaemon_mmlu_high_school_biology: {'accuracy': 88.38709677419355}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 85.88957055214725}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 83.12236286919831}
+lukaemon_mmlu_professional_medicine: {'accuracy': 77.20588235294117}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 55.925925925925924}
+lukaemon_mmlu_college_medicine: {'accuracy': 72.83236994219652}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 84.31372549019608}
+lukaemon_mmlu_sociology: {'accuracy': 84.5771144278607}
+lukaemon_mmlu_econometrics: {'accuracy': 68.42105263157895}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 88.62385321100918}
+lukaemon_mmlu_human_aging: {'accuracy': 70.4035874439462}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 87.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 81.27659574468085}
+IFEval: {'Prompt-level-strict-accuracy': 57.48613678373382, 'Inst-level-strict-accuracy': 66.18705035971223, 'Prompt-level-loose-accuracy': 61.737523105360445, 'Inst-level-loose-accuracy': 70.14388489208633}
+hellaswag: {'accuracy': 87.11412069308902}
+openai_humaneval: {'humaneval_pass@1': 74.39024390243902}
+sanitized_mbpp: {'pass': 171.0, 'timeout': 0.0, 'failed': 20.0, 'wrong_answer': 66.0, 'score': 66.53696498054474}
+lcb_code_generation: {'pass@1': 25.75}
+lcb_code_execution: {'pass@1': 45.3027139874739}
+lcb_test_output: {'pass@1': 44.11764705882353}
+GPQA_diamond: {'accuracy': 33.333333333333336}
+mmlu-humanities: {'accuracy': 73.44408629246836, 'naive_average': 73.44408629246836}
+mmlu-stem: {'accuracy': 71.0189594673073, 'naive_average': 71.0189594673073}
+mmlu-social-science: {'accuracy': 81.93577821409212, 'naive_average': 81.93577821409212}
+mmlu-other: {'accuracy': 73.30190912927868, 'naive_average': 73.30190912927868}
+mmlu: {'accuracy': 74.391008928608, 'naive_average': 74.391008928608}
+mmlu-weighted: {'accuracy': 71.89858994445235, 'weighted_average': 71.89858994445235}
+-------------------------------
+Model: sdar-new2-step020
+math_prm800k_500: {'accuracy': 70.0}
+aime2024: {'accuracy': 6.666666666666667}
+gsm8k: {'accuracy': 90.7505686125853}
+lukaemon_mmlu_college_biology: {'accuracy': 82.63888888888889}
+lukaemon_mmlu_college_chemistry: {'accuracy': 54.0}
+lukaemon_mmlu_college_computer_science: {'accuracy': 72.0}
+lukaemon_mmlu_college_mathematics: {'accuracy': 51.0}
+lukaemon_mmlu_college_physics: {'accuracy': 61.76470588235294}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 75.17241379310344}
+lukaemon_mmlu_astronomy: {'accuracy': 86.8421052631579}
+lukaemon_mmlu_anatomy: {'accuracy': 68.14814814814815}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 60.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 60.71428571428571}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 77.73584905660378}
+lukaemon_mmlu_global_facts: {'accuracy': 48.0}
+lukaemon_mmlu_management: {'accuracy': 85.43689320388349}
+lukaemon_mmlu_nutrition: {'accuracy': 79.73856209150327}
+lukaemon_mmlu_marketing: {'accuracy': 88.88888888888889}
+lukaemon_mmlu_professional_accounting: {'accuracy': 55.319148936170215}
+lukaemon_mmlu_high_school_geography: {'accuracy': 90.40404040404042}
+lukaemon_mmlu_international_law: {'accuracy': 83.47107438016529}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 42.011173184357546}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 90.75630252100841}
+lukaemon_mmlu_professional_law: {'accuracy': 50.717079530638856}
+lukaemon_mmlu_medical_genetics: {'accuracy': 87.0}
+lukaemon_mmlu_professional_psychology: {'accuracy': 75.16339869281046}
+lukaemon_mmlu_jurisprudence: {'accuracy': 75.92592592592592}
+lukaemon_mmlu_world_religions: {'accuracy': 81.87134502923976}
+lukaemon_mmlu_philosophy: {'accuracy': 74.27652733118971}
+lukaemon_mmlu_virology: {'accuracy': 52.40963855421686}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.39901477832512}
+lukaemon_mmlu_public_relations: {'accuracy': 68.18181818181817}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 80.76923076923077}
+lukaemon_mmlu_human_sexuality: {'accuracy': 81.67938931297711}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 74.07407407407408}
+lukaemon_mmlu_high_school_physics: {'accuracy': 59.60264900662252}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 87.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122}
+lukaemon_mmlu_business_ethics: {'accuracy': 80.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 74.85549132947978}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 73.14814814814815}
+lukaemon_mmlu_miscellaneous: {'accuracy': 80.5874840357599}
+lukaemon_mmlu_formal_logic: {'accuracy': 62.698412698412696}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 90.67357512953367}
+lukaemon_mmlu_prehistory: {'accuracy': 75.61728395061729}
+lukaemon_mmlu_security_studies: {'accuracy': 74.6938775510204}
+lukaemon_mmlu_high_school_biology: {'accuracy': 88.06451612903226}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 86.50306748466258}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 82.70042194092827}
+lukaemon_mmlu_professional_medicine: {'accuracy': 76.47058823529412}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 53.333333333333336}
+lukaemon_mmlu_college_medicine: {'accuracy': 72.25433526011561}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 85.29411764705883}
+lukaemon_mmlu_sociology: {'accuracy': 85.07462686567165}
+lukaemon_mmlu_econometrics: {'accuracy': 68.42105263157895}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 88.07339449541286}
+lukaemon_mmlu_human_aging: {'accuracy': 71.74887892376681}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 87.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 82.12765957446808}
+IFEval: {'Prompt-level-strict-accuracy': 54.15896487985212, 'Inst-level-strict-accuracy': 64.38848920863309, 'Prompt-level-loose-accuracy': 58.59519408502772, 'Inst-level-loose-accuracy': 68.34532374100719}
+hellaswag: {'accuracy': 86.89504082852022}
+openai_humaneval: {'humaneval_pass@1': 78.65853658536585}
+sanitized_mbpp: {'pass': 178.0, 'timeout': 0.0, 'failed': 15.0, 'wrong_answer': 64.0, 'score': 69.26070038910505}
+lcb_code_generation: {'pass@1': 22.25}
+lcb_code_execution: {'pass@1': 28.81002087682672}
+lcb_test_output: {'pass@1': 42.081447963800905}
+GPQA_diamond: {'accuracy': 33.333333333333336}
+mmlu-humanities: {'accuracy': 73.62723397267676, 'naive_average': 73.62723397267676}
+mmlu-stem: {'accuracy': 70.68578645968108, 'naive_average': 70.68578645968108}
+mmlu-social-science: {'accuracy': 81.74089221292523, 'naive_average': 81.74089221292523}
+mmlu-other: {'accuracy': 73.50694362970792, 'naive_average': 73.50694362970792}
+mmlu: {'accuracy': 74.3274554056148, 'naive_average': 74.3274554056148}
+mmlu-weighted: {'accuracy': 71.67070217917676, 'weighted_average': 71.67070217917676}
+-------------------------------
+Model: sdar-new2-step040
+math_prm800k_500: {'accuracy': 69.2}
+aime2024: {'accuracy': 0.0}
+gsm8k: {'accuracy': 88.93100833965126}
+lukaemon_mmlu_college_biology: {'accuracy': 84.02777777777779}
+lukaemon_mmlu_college_chemistry: {'accuracy': 56.99999999999999}
+lukaemon_mmlu_college_computer_science: {'accuracy': 70.0}
+lukaemon_mmlu_college_mathematics: {'accuracy': 51.0}
+lukaemon_mmlu_college_physics: {'accuracy': 59.80392156862745}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 75.86206896551724}
+lukaemon_mmlu_astronomy: {'accuracy': 85.52631578947368}
+lukaemon_mmlu_anatomy: {'accuracy': 65.92592592592592}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 59.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 60.71428571428571}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 78.49056603773586}
+lukaemon_mmlu_global_facts: {'accuracy': 47.0}
+lukaemon_mmlu_management: {'accuracy': 86.40776699029125}
+lukaemon_mmlu_nutrition: {'accuracy': 79.08496732026144}
+lukaemon_mmlu_marketing: {'accuracy': 89.31623931623932}
+lukaemon_mmlu_professional_accounting: {'accuracy': 54.25531914893617}
+lukaemon_mmlu_high_school_geography: {'accuracy': 89.8989898989899}
+lukaemon_mmlu_international_law: {'accuracy': 82.64462809917356}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 43.687150837988824}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 91.17647058823529}
+lukaemon_mmlu_professional_law: {'accuracy': 50.32594524119948}
+lukaemon_mmlu_medical_genetics: {'accuracy': 87.0}
+lukaemon_mmlu_professional_psychology: {'accuracy': 75.49019607843137}
+lukaemon_mmlu_jurisprudence: {'accuracy': 76.85185185185185}
+lukaemon_mmlu_world_religions: {'accuracy': 80.7017543859649}
+lukaemon_mmlu_philosophy: {'accuracy': 74.27652733118971}
+lukaemon_mmlu_virology: {'accuracy': 52.40963855421686}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.89162561576354}
+lukaemon_mmlu_public_relations: {'accuracy': 68.18181818181817}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 81.28205128205128}
+lukaemon_mmlu_human_sexuality: {'accuracy': 80.91603053435115}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 73.28042328042328}
+lukaemon_mmlu_high_school_physics: {'accuracy': 61.58940397350994}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 86.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122}
+lukaemon_mmlu_business_ethics: {'accuracy': 80.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 76.01156069364163}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 74.53703703703704}
+lukaemon_mmlu_miscellaneous: {'accuracy': 80.71519795657727}
+lukaemon_mmlu_formal_logic: {'accuracy': 63.49206349206349}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 90.67357512953367}
+lukaemon_mmlu_prehistory: {'accuracy': 77.1604938271605}
+lukaemon_mmlu_security_studies: {'accuracy': 75.10204081632654}
+lukaemon_mmlu_high_school_biology: {'accuracy': 87.09677419354838}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 85.88957055214725}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 81.85654008438819}
+lukaemon_mmlu_professional_medicine: {'accuracy': 77.94117647058823}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 51.11111111111111}
+lukaemon_mmlu_college_medicine: {'accuracy': 72.83236994219652}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 84.31372549019608}
+lukaemon_mmlu_sociology: {'accuracy': 84.07960199004975}
+lukaemon_mmlu_econometrics: {'accuracy': 66.66666666666666}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 88.62385321100918}
+lukaemon_mmlu_human_aging: {'accuracy': 70.4035874439462}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 87.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 79.14893617021276}
+IFEval: {'Prompt-level-strict-accuracy': 52.31053604436229, 'Inst-level-strict-accuracy': 63.30935251798561, 'Prompt-level-loose-accuracy': 55.822550831792974, 'Inst-level-loose-accuracy': 67.14628297362111}
+hellaswag: {'accuracy': 86.85520812587134}
+openai_humaneval: {'humaneval_pass@1': 79.8780487804878}
+sanitized_mbpp: {'pass': 179.0, 'timeout': 0.0, 'failed': 15.0, 'wrong_answer': 63.0, 'score': 69.64980544747081}
+lcb_code_generation: {'pass@1': 16.5}
+lcb_code_execution: {'pass@1': 22.755741127348646}
+lcb_test_output: {'pass@1': 44.11764705882353}
+GPQA_diamond: {'accuracy': 38.38383838383838}
+mmlu-humanities: {'accuracy': 73.72491793069898, 'naive_average': 73.72491793069898}
+mmlu-stem: {'accuracy': 70.2902951117481, 'naive_average': 70.2902951117481}
+mmlu-social-science: {'accuracy': 81.59094119812191, 'naive_average': 81.59094119812191}
+mmlu-other: {'accuracy': 73.52744839853762, 'naive_average': 73.52744839853762}
+mmlu: {'accuracy': 74.19101164527636, 'naive_average': 74.19101164527636}
+mmlu-weighted: {'accuracy': 71.66358068651189, 'weighted_average': 71.66358068651189}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

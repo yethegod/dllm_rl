@@ -1,0 +1,136 @@
+20260507_005829
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                      version    metric                        mode    sdar-new2-step010    sdar-new2-step020    sdar-new2-step030    sdar-new2-step040    sdar-new2-step050    sdar-new2-step120
+---------------------------  ---------  ----------------------------  ------  -------------------  -------------------  -------------------  -------------------  -------------------  -------------------
+=== In-domain Math ===       -          -                             -       -                    -                    -                    -                    -                    -
+math_prm800k_500             e5f646     accuracy                      gen     61.00                70.00                67.60                69.20                72.40                74.00
+aime2024                     59702d     accuracy                      gen     10.00                6.67                 6.67                 0.00                 10.00                10.00
+gsm8k                        bd56fc     accuracy                      gen     87.41                90.75                89.39                88.93                90.90                90.45
+                             -          -                             -       -                    -                    -                    -                    -                    -
+=== General Capability ===   -          -                             -       -                    -                    -                    -                    -                    -
+IFEval                       ea6fc0     Prompt-level-strict-accuracy  gen     57.49                54.16                53.42                52.31                50.09                48.80
+openai_humaneval             56bdbe     humaneval_pass@1              gen     74.39                78.66                80.49                79.88                78.66                78.05
+sanitized_mbpp               4d4ec2     score                         gen     66.54                69.26                69.65                69.65                69.65                68.48
+                             -          -                             -       -                    -                    -                    -                    -                    -
+=== OOD Transferability ===  -          -                             -       -                    -                    -                    -                    -                    -
+lcb_code_generation          11f504     pass@1                        gen     25.75                22.25                18.00                16.50                17.00                20.75
+GPQA_diamond                 50136a     accuracy                      gen     33.33                33.33                36.36                38.38                37.88                36.87
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,sdar-new2-step010,sdar-new2-step020,sdar-new2-step030,sdar-new2-step040,sdar-new2-step050,sdar-new2-step120
+=== In-domain Math ===,-,-,-,-,-,-,-,-,-
+math_prm800k_500,e5f646,accuracy,gen,61.00,70.00,67.60,69.20,72.40,74.00
+aime2024,59702d,accuracy,gen,10.00,6.67,6.67,0.00,10.00,10.00
+gsm8k,bd56fc,accuracy,gen,87.41,90.75,89.39,88.93,90.90,90.45
+,-,-,-,-,-,-,-,-,-
+=== General Capability ===,-,-,-,-,-,-,-,-,-
+IFEval,ea6fc0,Prompt-level-strict-accuracy,gen,57.49,54.16,53.42,52.31,50.09,48.80
+openai_humaneval,56bdbe,humaneval_pass@1,gen,74.39,78.66,80.49,79.88,78.66,78.05
+sanitized_mbpp,4d4ec2,score,gen,66.54,69.26,69.65,69.65,69.65,68.48
+,-,-,-,-,-,-,-,-,-
+=== OOD Transferability ===,-,-,-,-,-,-,-,-,-
+lcb_code_generation,11f504,pass@1,gen,25.75,22.25,18.00,16.50,17.00,20.75
+GPQA_diamond,50136a,accuracy,gen,33.33,33.33,36.36,38.38,37.88,36.87
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+markdown format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| dataset | version | metric | mode | sdar-new2-step010 | sdar-new2-step020 | sdar-new2-step030 | sdar-new2-step040 | sdar-new2-step050 | sdar-new2-step120 |
+|----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----|
+| === In-domain Math === | - | - | - | - | - | - | - | - | - |
+| math_prm800k_500 | e5f646 | accuracy | gen | 61.00 | 70.00 | 67.60 | 69.20 | 72.40 | 74.00 |
+| aime2024 | 59702d | accuracy | gen | 10.00 | 6.67 | 6.67 | 0.00 | 10.00 | 10.00 |
+| gsm8k | bd56fc | accuracy | gen | 87.41 | 90.75 | 89.39 | 88.93 | 90.90 | 90.45 |
+|  | - | - | - | - | - | - | - | - | - |
+| === General Capability === | - | - | - | - | - | - | - | - | - |
+| IFEval | ea6fc0 | Prompt-level-strict-accuracy | gen | 57.49 | 54.16 | 53.42 | 52.31 | 50.09 | 48.80 |
+| openai_humaneval | 56bdbe | humaneval_pass@1 | gen | 74.39 | 78.66 | 80.49 | 79.88 | 78.66 | 78.05 |
+| sanitized_mbpp | 4d4ec2 | score | gen | 66.54 | 69.26 | 69.65 | 69.65 | 69.65 | 68.48 |
+|  | - | - | - | - | - | - | - | - | - |
+| === OOD Transferability === | - | - | - | - | - | - | - | - | - |
+| lcb_code_generation | 11f504 | pass@1 | gen | 25.75 | 22.25 | 18.00 | 16.50 | 17.00 | 20.75 |
+| GPQA_diamond | 50136a | accuracy | gen | 33.33 | 33.33 | 36.36 | 38.38 | 37.88 | 36.87 |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: sdar-new2-step010
+math_prm800k_500: {'accuracy': 61.0}
+aime2024: {'accuracy': 10.0}
+gsm8k: {'accuracy': 87.41470811220621}
+IFEval: {'Prompt-level-strict-accuracy': 57.48613678373382, 'Inst-level-strict-accuracy': 66.18705035971223, 'Prompt-level-loose-accuracy': 61.737523105360445, 'Inst-level-loose-accuracy': 70.14388489208633}
+openai_humaneval: {'humaneval_pass@1': 74.39024390243902}
+sanitized_mbpp: {'pass': 171.0, 'timeout': 0.0, 'failed': 20.0, 'wrong_answer': 66.0, 'score': 66.53696498054474}
+lcb_code_generation: {'pass@1': 25.75}
+lcb_code_execution: {'pass@1': 45.3027139874739}
+lcb_test_output: {'pass@1': 44.11764705882353}
+GPQA_diamond: {'accuracy': 33.333333333333336}
+-------------------------------
+Model: sdar-new2-step020
+math_prm800k_500: {'accuracy': 70.0}
+aime2024: {'accuracy': 6.666666666666667}
+gsm8k: {'accuracy': 90.7505686125853}
+IFEval: {'Prompt-level-strict-accuracy': 54.15896487985212, 'Inst-level-strict-accuracy': 64.38848920863309, 'Prompt-level-loose-accuracy': 58.59519408502772, 'Inst-level-loose-accuracy': 68.34532374100719}
+openai_humaneval: {'humaneval_pass@1': 78.65853658536585}
+sanitized_mbpp: {'pass': 178.0, 'timeout': 0.0, 'failed': 15.0, 'wrong_answer': 64.0, 'score': 69.26070038910505}
+lcb_code_generation: {'pass@1': 22.25}
+lcb_code_execution: {'pass@1': 28.81002087682672}
+lcb_test_output: {'pass@1': 42.081447963800905}
+GPQA_diamond: {'accuracy': 33.333333333333336}
+-------------------------------
+Model: sdar-new2-step030
+math_prm800k_500: {'accuracy': 67.6}
+aime2024: {'accuracy': 6.666666666666667}
+gsm8k: {'accuracy': 89.38589840788477}
+IFEval: {'Prompt-level-strict-accuracy': 53.41959334565619, 'Inst-level-strict-accuracy': 63.42925659472422, 'Prompt-level-loose-accuracy': 56.931608133086876, 'Inst-level-loose-accuracy': 66.66666666666666}
+openai_humaneval: {'humaneval_pass@1': 80.48780487804879}
+sanitized_mbpp: {'pass': 179.0, 'timeout': 0.0, 'failed': 13.0, 'wrong_answer': 65.0, 'score': 69.64980544747081}
+lcb_code_generation: {'pass@1': 18.0}
+lcb_code_execution: {'pass@1': 19.832985386221296}
+lcb_test_output: {'pass@1': 41.8552036199095}
+GPQA_diamond: {'accuracy': 36.36363636363637}
+-------------------------------
+Model: sdar-new2-step040
+math_prm800k_500: {'accuracy': 69.2}
+aime2024: {'accuracy': 0.0}
+gsm8k: {'accuracy': 88.93100833965126}
+IFEval: {'Prompt-level-strict-accuracy': 52.31053604436229, 'Inst-level-strict-accuracy': 63.30935251798561, 'Prompt-level-loose-accuracy': 55.822550831792974, 'Inst-level-loose-accuracy': 67.14628297362111}
+openai_humaneval: {'humaneval_pass@1': 79.8780487804878}
+sanitized_mbpp: {'pass': 179.0, 'timeout': 0.0, 'failed': 15.0, 'wrong_answer': 63.0, 'score': 69.64980544747081}
+lcb_code_generation: {'pass@1': 16.5}
+lcb_code_execution: {'pass@1': 22.755741127348646}
+lcb_test_output: {'pass@1': 44.11764705882353}
+GPQA_diamond: {'accuracy': 38.38383838383838}
+-------------------------------
+Model: sdar-new2-step050
+math_prm800k_500: {'accuracy': 72.4}
+aime2024: {'accuracy': 10.0}
+gsm8k: {'accuracy': 90.9021986353298}
+IFEval: {'Prompt-level-strict-accuracy': 50.09242144177449, 'Inst-level-strict-accuracy': 60.91127098321343, 'Prompt-level-loose-accuracy': 54.15896487985212, 'Inst-level-loose-accuracy': 64.86810551558753}
+openai_humaneval: {'humaneval_pass@1': 78.65853658536585}
+sanitized_mbpp: {'pass': 179.0, 'timeout': 0.0, 'failed': 16.0, 'wrong_answer': 62.0, 'score': 69.64980544747081}
+lcb_code_generation: {'pass@1': 17.0}
+lcb_code_execution: {'pass@1': 23.799582463465555}
+lcb_test_output: {'pass@1': 42.53393665158371}
+GPQA_diamond: {'accuracy': 37.878787878787875}
+-------------------------------
+Model: sdar-new2-step120
+math_prm800k_500: {'accuracy': 74.0}
+aime2024: {'accuracy': 10.0}
+gsm8k: {'accuracy': 90.44730856709629}
+IFEval: {'Prompt-level-strict-accuracy': 48.79852125693161, 'Inst-level-strict-accuracy': 60.19184652278178, 'Prompt-level-loose-accuracy': 52.68022181146026, 'Inst-level-loose-accuracy': 63.78896882494005}
+openai_humaneval: {'humaneval_pass@1': 78.04878048780488}
+sanitized_mbpp: {'pass': 176.0, 'timeout': 0.0, 'failed': 11.0, 'wrong_answer': 70.0, 'score': 68.48249027237354}
+lcb_code_generation: {'pass@1': 20.75}
+lcb_code_execution: {'pass@1': 24.63465553235908}
+lcb_test_output: {'pass@1': 39.81900452488688}
+GPQA_diamond: {'accuracy': 36.86868686868687}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
