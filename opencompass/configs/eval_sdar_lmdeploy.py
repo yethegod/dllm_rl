@@ -1,0 +1,170 @@
+import torch
+from mmengine.config import read_base
+from opencompass.runners import LocalRunner
+from opencompass.partitioners import NaivePartitioner, NumWorkerPartitioner
+from opencompass.tasks import OpenICLInferTask, OpenICLEvalTask
+from opencompass.models import (
+    LMDeploywithChatTemplate
+)
+
+
+with read_base():
+    # datasets setting
+    from opencompass.configs.datasets.mmlu.mmlu_gen_4d595a import mmlu_datasets
+    # math
+    from opencompass.configs.datasets.gsm8k.gsm8k_0shot_v2_gen_17d799 import gsm8k_datasets
+    from opencompass.configs.datasets.math.math_prm800k_500_0shot_cot_gen_11c4b5 import math_datasets
+    from opencompass.configs.datasets.humaneval.humaneval_gen import humaneval_datasets
+    from opencompass.configs.datasets.mbpp.sanitized_mbpp_mdblock_0shot_nocot_gen_a2e416 import sanitized_mbpp_datasets
+
+    from opencompass.configs.datasets.MathBench.mathbench_2024_gen_50a320 import (
+        mathbench_datasets,
+    )
+    # Instruction Following
+    from opencompass.configs.datasets.IFEval.IFEval_gen_353ae7 import (
+        ifeval_datasets,
+    )
+    # In-domain math (AIME)
+    from opencompass.configs.datasets.aime2024.aime2024_0shot_nocot_gen_2b9dc2 import aime2024_datasets
+    # General capability
+    from opencompass.configs.datasets.hellaswag.hellaswag_10shot_gen_e42710 import hellaswag_datasets
+    # OOD transferability
+    from opencompass.configs.datasets.livecodebench.livecodebench_gen_6966bc import LCB_datasets
+    from opencompass.configs.datasets.gpqa.gpqa_gen_4baadb import gpqa_datasets
+    # summarizer
+    from opencompass.configs.summarizers.internlm2_keyset import summarizer
+    from opencompass.configs.summarizers.groups.mathbench_v1_2024 import (
+        mathbench_2024_summary_groups,
+    )
+    from opencompass.configs.summarizers.groups.mmlu import mmlu_summary_groups
+
+# summarizer
+summary_groups = sum(
+    [v for k, v in locals().items() if k.endswith('_summary_groups')], []
+)
+
+summary_groups.append(
+    {
+        'name': 'Mathbench',
+        'subsets': ['mathbench-a (average)', 'mathbench-t (average)'],
+    },
+)
+
+# Summarizer
+summarizer = dict(
+    dataset_abbrs=[
+        '=== In-domain Math ===',
+        ['math_prm800k_500', 'accuracy'],
+        ['aime2024', 'accuracy'],
+        ["gsm8k", "accuracy"],
+        ['Mathbench', 'naive_average'],
+        '',
+        '=== General Capability ===',
+        ['mmlu', 'naive_average'],
+        ['IFEval', 'Prompt-level-strict-accuracy'],
+        ['hellaswag', 'accuracy'],
+        ['openai_humaneval', 'humaneval_pass@1'],
+        ['sanitized_mbpp', 'score'],
+        '',
+        '=== OOD Transferability ===',
+        ['livecodebench_code_generation', 'pass@1'],
+        ['GPQA_diamond', 'accuracy'],
+        '',
+        '--- MMLU breakdown ---',
+        'mmlu',
+        'mmlu-stem',
+        'mmlu-social-science',
+        'mmlu-humanities',
+        'mmlu-other',
+        '',
+        '--- MathBench breakdown ---',
+        '###### MathBench-A: Application Part ######',
+        'college',
+        'high',
+        'middle',
+        'primary',
+        'arithmetic',
+        'mathbench-a (average)',
+        '###### MathBench-T: Theory Part ######',
+        'college_knowledge',
+        'high_knowledge',
+        'middle_knowledge',
+        'primary_knowledge',
+        'mathbench-t (average)',
+    ],
+    summary_groups=summary_groups,
+)
+
+datasets = [
+    # in-domain math
+    *math_datasets, *aime2024_datasets, *gsm8k_datasets, *mathbench_datasets,
+    # general capability
+    *mmlu_datasets, *ifeval_datasets, *hellaswag_datasets,
+    *humaneval_datasets, *sanitized_mbpp_datasets,
+    # OOD transferability
+    # *LCB_datasets,  # disabled: download from OSS server is unreliable
+    *gpqa_datasets,
+]
+for dataset in datasets:
+    dataset['infer_cfg']['inferencer']['batch_size'] = 128
+
+# model — SDAR-4B-Chat with two decoding strategies:
+#   thr=1.0  → greedy (low_confidence_static): faster, deterministic
+#   thr=0.95 → confidence-guided (low_confidence_dynamic): slightly better quality
+model_configs = [
+    ("SDAR-4B-Chat-b4-thr1_00", "/users/8/pan00389/dllm/models/SDAR-4B-Chat", 4, 1.0,  1),
+]
+models = []
+for abbr, path, block_length, threshold, num_gpus in model_configs:
+    dllm_unmasking_strategy = ""
+    if 0 < threshold < 1.0:
+        dllm_unmasking_strategy = "low_confidence_dynamic"
+    elif threshold == 1.0:
+        dllm_unmasking_strategy = "low_confidence_static"
+    else:
+        raise ValueError("Invalid threshold value. It should be in the range [0, 1].")
+
+    models.append(
+        dict(
+            type=LMDeploywithChatTemplate,
+            abbr=abbr,
+            path=path,
+            run_cfg=dict(num_gpus=num_gpus),
+            generation_kwargs=dict(
+                top_p=0.95,
+                top_k=50,
+                temperature=1.0,
+                do_sample=False, # greedy decoding
+                max_new_tokens=4096,
+            ),
+            model_kwargs=dict(
+                tp=1,
+                dtype="float16",
+                dllm_block_length=block_length,
+                dllm_denoising_steps=block_length,
+                dllm_confidence_threshold=threshold,
+                dllm_unmasking_strategy=dllm_unmasking_strategy
+            ),
+        )
+    )
+
+GPUS = 1
+infer = dict(
+    partitioner=dict(
+        type=NumWorkerPartitioner,
+        num_worker=GPUS,
+    ),
+    runner=dict(
+        type=LocalRunner,
+        max_num_workers=GPUS,
+        keep_tmp_file=True,
+        task=dict(type=OpenICLInferTask),
+        retry=5
+    )
+)
+eval = dict(
+    partitioner=dict(type=NaivePartitioner, n=1),
+    runner=dict(type=LocalRunner, task=dict(type=OpenICLEvalTask, dump_details=True)),
+)
+
+work_dir = f'./outputs/eval-chat-sdar'
