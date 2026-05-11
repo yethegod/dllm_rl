@@ -1,5 +1,6 @@
 # Exploration in Diffusion Language Model Reasoning Transferability
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow)](https://huggingface.co/yethegod/sdar-4b-rl)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-SFT%20Model-yellow)](https://huggingface.co/Shayla216/sdar-4b-sft-math-checkpoints)
 [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yethegod/dllm_rl) 
 
 This is the codebase for CSCI 5980 course project: Exploration in Diffusion Language Model Reasoning Transferability.
@@ -9,9 +10,9 @@ While prior work has extensively studied reasoning transferability in autoregres
 
 ### Compute Resources
 
-- **RL training**: 8 x NVIDIA A100 40GB GPUs.
-- **Inference / evaluation**: 2 x NVIDIA A100 40GB GPUs.
-- **SFT training**: TBD.
+- **SFT/RL training**: 8 x NVIDIA A100 40GB GPUs.
+- **RL Inference / evaluation**: 2 x NVIDIA A100 40GB GPUs.
+- **SFT Inference / evaluation**: 1 X NVIDIA H100 80GB GPU.
 
 ### Benchmark Categories
 
@@ -25,6 +26,8 @@ While prior work has extensively studied reasoning transferability in autoregres
 | Method | Math Reasoning | Other Reasoning | Non-Reasoning |
 |--------|---------------|----------------|---------------|
 | **RL** | ✅ Strong gains | ✅ Positive transfer | ✅ Preserved/improved |
+| **SFT** | ✅ Strong gains | ⭕️ mixed:decreased/improved | ❌ decrease |
+
 
 ## Acknowledgements and Licenses
 
